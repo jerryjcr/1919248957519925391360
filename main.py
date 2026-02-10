@@ -68,7 +68,9 @@ def draw_side_bar(cell={}):
     global icon
     canvas1.create_rectangle(960,0,1280,600,fill="black")
     if cell:
-        icon=ImageTk.PhotoImage((bgphoto.resize((960,720))).crop((cell["x0"],cell["y0"],cell["x1"],cell["y1"])))
+        size_coef=min(Fraction(240,cell["x1"]-cell["x0"]),Fraction(280,cell["y1"]-cell["y0"]))
+        cropped=(bgphoto.resize((960,720))).crop((cell["x0"],cell["y0"],cell["x1"],cell["y1"]))
+        icon=ImageTk.PhotoImage(cropped.resize((round(size_coef*(cell["x1"]-cell["x0"])),round(size_coef*(cell["y1"]-cell["y0"])))))
         canvas1.create_image(1120,160,image=icon)
         canvas1.create_text(1000,300,width=200,text=cell["text"],anchor="nw",font=('Comfortaa', '12'))
 

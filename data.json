@@ -1,20 +1,84 @@
 [
-    {
-        "label": "test",
-        "x0":0,
-        "y0":0,
-        "x1":200,
-        "y1":200,
-        "text":"hello",
-        "priority": 0
-    },
+    
     {
         "label": "hornet",
         "x0":350,
         "y0":100,
         "x1":413,
         "y1":326,
-        "text":"who tf be putting legs on hornetasdasdasdafadf asdasfgfsgdfgergqwrgawgwg ",
+        "text":"I still can't believe you cursed my beautiful hornet drawing with FISHNET LEGS WHAT THE HECK",
         "priority": 0
+    },
+    {
+        "label": "link",
+        "x0":134,
+        "y0":34,
+        "x1":321,
+        "y1":57,
+        "text":"I always remember this linking to candyland but apparently it doesnt? I tried for like 20 min I could not find what this links to so uhh",
+        "priority": 0
+    },
+    {
+        "label": "alena?",
+        "x0":8,
+        "y0":39,
+        "x1":69,
+        "y1":141,
+        "text":"nope can't explain this one",
+        "priority": 0
+    },
+    {
+        "label": "eyelash grid?",
+        "x0":68,
+        "y0":78,
+        "x1":195,
+        "y1":112,
+        "text":"Im like 30% sure and only 30% sure that this is a grid of Kayley's eyelashes from when she would just pluck them out and you guys would PASS IT ALONG THE TABLE TO PUT IT ON MY SHOULDER",
+        "priority": 0 
+    },
+    {
+        "label": "FROZEN BICCIES",
+        "x0":112,
+        "y0":112,
+        "x1":202,
+        "y1":140,
+        "text":"remember when Kayley would freeze fucking cookies so you had to gnaw on it like a pirate eating hardtac or wait for a frickin cookie to defrost",
+        "priority": 0
+    },
+    {
+        "label": "private property",
+        "x0":252,
+        "y0":65,
+        "x1":351,
+        "y1":115,
+        "text":"I can't read the text below private property but I'm pretty sure this is a depiction of 'John Locke my balls in your mouth' from the utopian socialism skit",
+        "priority": 0
+    },
+    {
+        "label": "little eyelashes",
+        "x0":192,
+        "y0":144,
+        "x1":234,
+        "y1":194,
+        "text":"more eyelashes, see the grid of eyelashes to the northwest",
+        "priority": 0
+    },
+    {
+        "label": "modern society",
+        "x0":320,
+        "y0":20,
+        "x1":465,
+        "y1":44,
+        "text":"'Modern society is a great plac-'    BOOOM     'Zankoku na tenshi no you ni-' - yeah we might be chopped for this one",
+        "priority": 0
+    },
+    {
+        "label": "bendy?",
+        "x0":360,
+        "y0":38,
+        "x1":454,
+        "y1":110,
+        "text":"nuclear bomb being launched at polish bendy and the ink machine ???!?? - nope can't explain this one either",
+        "priority": 1
     }
 ]
