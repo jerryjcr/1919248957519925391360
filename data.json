@@ -1,0 +1,20 @@
+[
+    {
+        "label": "test",
+        "x0":0,
+        "y0":0,
+        "x1":200,
+        "y1":200,
+        "text":"hello",
+        "priority": 0
+    },
+    {
+        "label": "hornet",
+        "x0":350,
+        "y0":100,
+        "x1":413,
+        "y1":326,
+        "text":"who tf be putting legs on hornet",
+        "priority": 0
+    }
+]
