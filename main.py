@@ -66,12 +66,11 @@ def get_zoom_out_y_padding(y):
 #event methods
 def draw_side_bar(cell={}):
     global icon
-    print(cell)
     canvas1.create_rectangle(960,0,1280,600,fill="black")
     if cell:
         icon=ImageTk.PhotoImage((bgphoto.resize((960,720))).crop((cell["x0"],cell["y0"],cell["x1"],cell["y1"])))
         canvas1.create_image(1120,160,image=icon)
-        canvas1.create_text(1000,300,width=200,text=cell["text"])
+        canvas1.create_text(1000,300,width=200,text=cell["text"],anchor="nw",font=('Comfortaa', '12'))
 
 
 def zoom(e):
@@ -108,6 +107,7 @@ def debug(e):
 canvas1.bind('<MouseWheel>', zoom)
 canvas1.bind('<Motion>', handle_motion)
 canvas1.bind('<Button-1>', debug)
+#REMEMBER THAT WE CHANGED THE DEFAULT RECTANGLE DRAWING TO DO THE DEBUG
 
 
 #main loop
