@@ -150,7 +150,7 @@
         "y0":403,
         "x1":350,
         "y1":504,
-        "text":"YOU CAN TUNA PIANO BUT YOU CANT PIANO A TUNA AHAHAHAH",
+        "text":"THE DIFFERENCE BETWEEN A FISH AND A PIANO IS THAT A PIANO CANT SWIM AHAHAHAH",
         "priority": 0
     },
     {
@@ -404,5 +404,123 @@
         "y1":579,
         "text":"cannot even begin to explain this corner",
         "priority": 1
+    },
+    {
+        "label": "minesweeper",
+        "x0":588,
+        "y0":442,
+        "x1":638,
+        "y1":533,
+        "text":"https://sudokupad.app/9a5ero74lx",
+        "priority": 0
+    },
+    {
+        "label": "peer pressure",
+        "x0":291,
+        "y0":516,
+        "x1":370,
+        "y1":576,
+        "text":"AHHHHHHHHHHH",
+        "priority": 0
+    },
+    {
+        "label": "league",
+        "x0":159,
+        "y0":183,
+        "x1":190,
+        "y1":207,
+        "text":"I honestly did not know I started playing league that early :P",
+        "priority": 0
+    },
+    {
+        "label": "hammer",
+        "x0":449,
+        "y0":216,
+        "x1":508,
+        "y1":228,
+        "text":"your hammer from the child labourer video",
+        "priority": 0
+    },
+    {
+        "label": "baby kayley",
+        "x0":133,
+        "y0":623,
+        "x1":188,
+        "y1":681,
+        "text":"BABY KAYLEY OMG YOUR DRAWING IS SO CUTE",
+        "priority": 0
+    },
+    {
+        "label": "baby kayley",
+        "x0":133,
+        "y0":623,
+        "x1":188,
+        "y1":681,
+        "text":"BABY KAYLEY OMG YOUR DRAWING IS SO CUTE",
+        "priority": 0
+    }
+    ,
+    {
+        "label": "luddite",
+        "x0":636,
+        "y0":242,
+        "x1":734,
+        "y1":309,
+        "text":"Mr McLean the luddite 'accept technology or draw 25'",
+        "priority": 0
+    },
+    {
+        "label": "waldo",
+        "x0":742,
+        "y0":541,
+        "x1":920,
+        "y1":659,
+        "text":"I think someone wore a waldo like shirt one day ?? and so we were obsessed with waldo that day and drew a lot of him. I might be hallucinating this though",
+        "priority": 0
+    },
+    {
+        "label": "mystery item",
+        "x0":426,
+        "y0":507,
+        "x1":473,
+        "y1":543,
+        "text":"genuinely not a clue what this is. Looks like an object from one of those 'bet you cant name a single object in this photo' photos",
+        "priority": 0
+    },
+    {
+        "label": "ikea cat?",
+        "x0":200,
+        "y0":619,
+        "x1":324,
+        "y1":705,
+        "text":"??????????????",
+        "priority": 0
+    },
+    {
+        "label": "something",
+        "x0":411,
+        "y0":212,
+        "x1":458,
+        "y1":280,
+        "text":"ts was actually nightmare fuel omg",
+        "priority": 0
+    },
+    {
+        "label": "hydra",
+        "x0":712,
+        "y0":308,
+        "x1":766,
+        "y1":353,
+        "text":"???????????",
+        "priority": 0
+    },
+    {
+        "label": "legs",
+        "x0":573,
+        "y0":210,
+        "x1":614,
+        "y1":262,
+        "text":"AHHH STOP WITH THE LEGS",
+        "priority": 0
     }
 ]
