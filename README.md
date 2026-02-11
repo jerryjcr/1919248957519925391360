@@ -12,7 +12,8 @@ Okay, here's how you actually run the code(if you haven't use git/python before)
 
 3. right click the folder you extracted, and click "open in terminal"
 
-4. run the command
+4. run the commands:
+>pip install Pillow
 >python main.py
 
 in the terminal, and press enter.
