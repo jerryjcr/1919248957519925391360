@@ -24,7 +24,7 @@
         "y0":39,
         "x1":69,
         "y1":141,
-        "text":"nope can't explain this one",
+        "text":"I can't tell if this is baby alena or child labourer alena",
         "priority": 0
     },
     {
@@ -521,6 +521,15 @@
         "x1":614,
         "y1":262,
         "text":"AHHH STOP WITH THE LEGS",
+        "priority": 0
+    },
+    {
+        "label": "beard",
+        "x0":666,
+        "y0":246,
+        "x1":718,
+        "y1":268,
+        "text":"THE UTOPIAN SOCIALISM BEARD",
         "priority": 0
     }
 ]
