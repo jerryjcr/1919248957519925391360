@@ -94,22 +94,28 @@ def zoom(e):
 def handle_motion(e):
     maxprio=0
     x=round((e.x-curr_zoom_corner[0])*Fraction(960,zooms[curr_zoom_level][0]))
-    y=round((e.y-curr_zoom_corner[1])*Fraction(960,zooms[curr_zoom_level][1]))
+    y=round((e.y-curr_zoom_corner[1])*Fraction(720,zooms[curr_zoom_level][1]))
     for cell in data:
         if (cell["x0"]<=x and cell["x1"]>=x and cell["y0"]<=y and cell["y1"]>=y and cell["priority"]>=maxprio):
+            print("x: "+ str(x)+ " y: "+ str(y))
             maxprio=cell["priority"]
             draw_side_bar(cell)
 
-
+#debugging functions
 def debug(e):
     canvas1.create_rectangle(960,600,1280,720,fill="black")
     canvas1.create_text(1100,700,text="x: "+str(e.x)+" y: "+str(e.y))
+def check_coverage():
+    for cell in data:
+        canvas1.create_rectangle(cell["x0"],cell["y0"],cell["x1"],cell["y1"],fill="red")
 
 #event bindings
 canvas1.bind('<MouseWheel>', zoom)
 canvas1.bind('<Motion>', handle_motion)
 canvas1.bind('<Button-1>', debug)
+check_coverage()
 #REMEMBER THAT WE CHANGED THE DEFAULT RECTANGLE DRAWING TO DO THE DEBUG
+
 
 
 #main loop
