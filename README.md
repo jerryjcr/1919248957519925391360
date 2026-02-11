@@ -14,6 +14,7 @@ Okay, here's how you actually run the code(if you haven't use git/python before)
 
 4. run the command
 >python main.py
+
 in the terminal, and press enter.
 
 You can zoom with scroll wheel. If something doesn't work you should let me know.
